@@ -13,10 +13,12 @@
 <body>
 <header class="container group">
         <div class="top-line"></div>
-        <nav class="nav primary-nav">
-            <a href="index.html">Home</a>
-            <a href="about.html">Bio</a>
-            <a href="projects.html">Projects</a>
+        <nav class="nav primary-nav top-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li><!--
+            --><li><a href="about.html">Bio</a></li><!--
+            --><li><a href="projects.html">Projects</a></li>
+            </ul>
         </nav>
     </header>
   <section class="container hero">
@@ -30,17 +32,24 @@
   </section><!--
 --><section class="container">
     <!--Some small text here-->
-
-    <div>
-        <p>I am a team player that is passionate about good and clean UI/UX, therefore current field of play is front-end development with skills in HTML/CSS (special love for Semantic UI), Javascript and Python. I look forward to being challenged on new projects and working with latest technologies and software.</p>
+    <div class="row">
+        <div class="grid">
+            <div class="bio-data">
+                <div class="col-2-3">
+                    <p>I am a team player that is passionate about good and clean UI/UX, therefore current field of play is front-end development with skills in HTML/CSS (special love for Semantic UI), Javascript and Python. I look forward to being challenged on new projects and working with latest technologies and software.</p>
+                </div><!--
+                --><aside class="col-1-3">
+                    <div class="speaker-info">
+                        <img src="assets/adeyemi_simeon_avatar.jpg" alt="adeyemi simeon profile">
+                        <h3></h3>
+                        <ul>
+                            <li><a target="_blank" href="https://github.com/Boasbabs">Github</a></li>
+                        </ul>
+                    </div>
+                </aside>
+            </div>
+        </div>
     </div>
-    <aside>
-        <img src="assets/adeyemi_simeon_avatar.jpg" alt="adeyemi simeon profile">
-        <h3></h3>
-        <ul>
-            <li><a target="_blank" href="https://github.com/Boasbabs">Github</a></li>
-        </ul>
-    </aside>
     <!--Table for years of experience-->
     <table>
         <thead>
@@ -83,12 +92,18 @@
 
 </section>
 <footer class="primary-footer container group">
-      <small>&copy; Adeyemi Simeon</small>
+      <small>&copy; Adeyemi Simeon 2017</small>
 
-      <nav>
-          <a href="index.html">Home</a>
-          <a href="about.html">Bio</a>
-          <a href="projects.html">Projects</a>
+      <nav class="nav">
+          <li>
+              <a href="index.html">Home</a>
+          </li>
+          <li>
+              <a href="about.html">Bio</a>
+          </li>
+          <li>
+              <a href="projects.html">Projects</a>
+          </li>
       </nav>
       <small>
           <a target="_blank" href="https://github.com/Boasbabs">Github</a>
